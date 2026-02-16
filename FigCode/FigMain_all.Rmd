@@ -1,0 +1,49 @@
+---
+title: ''
+author: 'Takamitsu Ohigashi'
+date: '17/06/2025'
+output:
+  pdf_document:
+    fig_caption: yes
+header-includes:
+ - \usepackage{caption}
+ - \captionsetup[figure]{labelformat=empty}
+ - \pagestyle{empty}
+ - \pagenumbering{gobble} #### to delete page number
+---
+
+
+<center>
+
+![**Figure 1**\| Conceptual diagram illustrating the difference between conventional and dynamic response traits. The upper part represents conventional response traits, including both static characteristics (e.g., pelagic lifestyle) and measured performances (e.g., abundance changes along a temperature gradient). The lower part illustrates dynamic response traits, which allow species responses to vary depending on ecological state (e.g., recent population history). Notably, even under the similar environmental conditions, responses may differ. Red and blue arrows indicate such context-dependent dynamics.](FigMain_out/FigM_concept_via.upload.pdf)
+
+</center>
+
+\clearpage
+
+
+<center>
+
+![**Figure 2**\| Characteristics of the long-term fish observational data in Maizuru Bay. **a**, Time series of population abundances for the top five most abundant species, along with the summed abundance of the remaining 108 species. For visualization purposes, two extreme values (>1800 for *E. japonicus*) are excluded from the figure range. **b**, Seasonal and interannual variation in fish community structure. Non-metric multidimensional scaling (NMDS) was used to visualize community dissimilarities. Environmental variables clearly associated with the community variation are represented as arrows (*p* < 0.05, Temp: water temperature; Temp.yr.ave: annual mean temperature; Year: sampling year). **c--d**, Fish community dynamics grouped by latitudinal distribution category. Species were categorized as "High latitude" or "Low latitude" depending on whether their latitudinal distribution center was above or below the median of the 113 observed species. Total abundance (**c**) and species richness (**d**) are shown for each latitudinal category.](FigMain_out/FigM_abun_nmds_latcat.pdf)
+
+</center>
+
+\clearpage
+
+
+<center>
+
+![**Figure 3**\| Latitudinal distribution and dynamic response to temperature of species. The relationship between each species’ latitudinal distribution center and its mean dynamic response to temperature is shown (based on 55 species for which dynamic response to temperature was quantified; one outlier was excluded). Point size represents the number of observations (abundance > 0) in Maizuru Bay. Fish silhouettes and names are shown next to points for the five most abundant species and those classified as "highly commercial" in the FishBase database. The Pearson's correlation coefficient (*r*) and its *p* value are indicated in the figure.](FigMain_out/FigM_corrlation_latcenter_IS.pdf)
+
+</center>
+
+\clearpage
+
+<center>
+
+![**Figure 4**\| Fish range shift velocity and dynamic response to temperature. **a**, The relationship between each species’ mean dynamic response to temperature and its estimated poleward shift velocity, based on iNaturalist and GBIF occurrence records collected in East Asia and Oceania. Fish silhouettes are shown for the species classified as "highly commercial" or "commercial" in the FishBase database. The Pearson's correlation coefficient (*r*) and its *p* value are shown. **b**, Interaction effect between sea surface temperature (SST) change rate at each species' mean occurrence latitude (based on iNaturalist and GBIF records) and mean dynamic response to temperature, on its estimated poleward shift velocity. Colored lines represent model-predicted relationships between SST change rate and poleward shift velocity, varying continuously with the mean dynamic response to temperature. Only 17 species for which both dynamic response to temperature and poleward shift velocity could be quantified are shown in this figure.](FigMain_out/FigM_corrlation_IS_shift_SST.pdf){width=90%}
+
+
+<center>
+
+

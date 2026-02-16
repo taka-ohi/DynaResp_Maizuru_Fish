@@ -1,0 +1,27 @@
+R version 4.5.0 (2025-04-11)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 22.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-serial/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-serial/libopenblas-r0.3.20.so;  LAPACK version 3.10.0
+
+locale:
+ [1] LC_CTYPE=en_HK.UTF-8       LC_NUMERIC=C               LC_TIME=en_HK.UTF-8        LC_COLLATE=en_HK.UTF-8    
+ [5] LC_MONETARY=en_HK.UTF-8    LC_MESSAGES=en_HK.UTF-8    LC_PAPER=en_HK.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C             LC_MEASUREMENT=en_HK.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Asia/Hong_Kong
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] Biostrings_2.72.1   GenomeInfoDb_1.40.1 XVector_0.44.0      IRanges_2.38.1      S4Vectors_0.42.1    BiocGenerics_0.50.0
+[7] seqinr_4.2-36      
+
+loaded via a namespace (and not attached):
+ [1] R6_2.5.1                zlibbioc_1.50.0         GenomeInfoDbData_1.2.12 UCSC.utils_1.0.0        compiler_4.5.0         
+ [6] httr_1.4.7              rstudioapi_0.16.0       tools_4.5.0             ade4_1.7-22             Rcpp_1.0.13            
+[11] crayon_1.5.3            jsonlite_1.8.8          MASS_7.3-65            

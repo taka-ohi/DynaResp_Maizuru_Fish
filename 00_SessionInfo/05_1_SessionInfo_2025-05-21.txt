@@ -1,0 +1,27 @@
+R version 4.5.0 (2025-04-11)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 22.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-serial/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-serial/libopenblas-r0.3.20.so;  LAPACK version 3.10.0
+
+locale:
+ [1] LC_CTYPE=en_HK.UTF-8       LC_NUMERIC=C               LC_TIME=en_HK.UTF-8        LC_COLLATE=en_HK.UTF-8     LC_MONETARY=en_HK.UTF-8   
+ [6] LC_MESSAGES=en_HK.UTF-8    LC_PAPER=en_HK.UTF-8       LC_NAME=C                  LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_HK.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Asia/Hong_Kong
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ape_5.8     dplyr_1.1.4
+
+loaded via a namespace (and not attached):
+ [1] digest_0.6.37     utf8_1.2.4        R6_2.5.1          tidyselect_1.2.1  lattice_0.22-5    magrittr_2.0.3    glue_1.7.0       
+ [8] tibble_3.2.1      parallel_4.5.0    pkgconfig_2.0.3   generics_0.1.3    lifecycle_1.0.4   cli_3.6.3         fansi_1.0.6      
+[15] grid_4.5.0        vctrs_0.6.5       withr_3.0.1       compiler_4.5.0    rstudioapi_0.16.0 tools_4.5.0       nlme_3.1-168     
+[22] pillar_1.9.0      Rcpp_1.0.13       rlang_1.1.4      

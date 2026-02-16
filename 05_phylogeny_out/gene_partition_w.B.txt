@@ -1,0 +1,11 @@
+DNA, msa12S_MiFish.U = 1 - 234
+DNA, msa12S_Ac12S = 235 - 716
+DNA, msa12S_AcMDB = 717 - 1066
+DNA, msa16S_Vert.16S = 1067 - 1453
+DNA, msa16S_Fish16S.FD = 1454 - 1768
+DNA, msacytb_Fish2deg = 1769 - 1848
+DNA, msacytb_L14735c2 = 1849 - 2315
+DNA, msaENC1 = 2316 - 3123
+DNA, msamyh6 = 3124 - 3908
+DNA, msaptr = 3909 - 4646
+DNA, msatbr1 = 4647 - 5408

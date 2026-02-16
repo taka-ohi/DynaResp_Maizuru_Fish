@@ -1,0 +1,33 @@
+R version 4.5.0 (2025-04-11)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 22.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-serial/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-serial/libopenblas-r0.3.20.so;  LAPACK version 3.10.0
+
+locale:
+ [1] LC_CTYPE=en_HK.UTF-8       LC_NUMERIC=C               LC_TIME=en_HK.UTF-8        LC_COLLATE=en_HK.UTF-8     LC_MONETARY=en_HK.UTF-8   
+ [6] LC_MESSAGES=en_HK.UTF-8    LC_PAPER=en_HK.UTF-8       LC_NAME=C                  LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_HK.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Asia/Hong_Kong
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] stringr_1.5.1           purrr_1.0.2             countrycode_1.6.1       CoordinateCleaner_3.0.1 rgbif_3.8.1            
+[6] rinat_0.1.9             dplyr_1.1.4            
+
+loaded via a namespace (and not attached):
+ [1] utf8_1.2.4          generics_0.1.3      class_7.3-23        xml2_1.3.6          KernSmooth_2.23-26  stringi_1.8.4      
+ [7] lattice_0.22-5      magrittr_2.0.3      grid_4.5.0          rnaturalearth_1.0.1 maps_3.4.2.1        plyr_1.8.9         
+[13] jsonlite_1.8.8      whisker_0.4.1       e1071_1.7-16        DBI_1.2.3           httr_1.4.7          fansi_1.0.6        
+[19] scales_1.3.0        oai_0.4.0           codetools_0.2-19    lazyeval_0.2.2      cli_3.6.3           rlang_1.1.4        
+[25] units_0.8-5         munsell_0.5.1       withr_3.0.1         tools_4.5.0         geosphere_1.5-20    colorspace_2.1-1   
+[31] ggplot2_3.5.1       curl_5.2.2          vctrs_0.6.5         R6_2.5.1            proxy_0.4-27        lifecycle_1.0.4    
+[37] classInt_0.4-10     pkgconfig_2.0.3     terra_1.8-42        pillar_1.9.0        gtable_0.3.5        data.table_1.16.0  
+[43] glue_1.7.0          Rcpp_1.0.13         sf_1.0-19           tibble_3.2.1        tidyselect_1.2.1    rstudioapi_0.16.0  
+[49] compiler_4.5.0      sp_2.1-4           

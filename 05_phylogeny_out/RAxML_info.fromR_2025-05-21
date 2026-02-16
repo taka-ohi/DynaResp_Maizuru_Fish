@@ -1,0 +1,121 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1640 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 71.14%
+
+RAxML rapid bootstrapping and subsequent ML search
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+
+Executing 2 rapid bootstrap inferences and thereafter a thorough ML search 
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1640
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/taka/standard-RAxML/raxmlHPC-PTHREADS-AVX -T 8 -f a -p 123 -x 1000 -m GTRGAMMA -o Hemitrygon_akajei -N 2 -g fromR_2025-05-21-backbone.tre -s fromR_2025-05-21.phy -n fromR_2025-05-21 
+
+
+
+
+The topologies of all Bootstrap and ML trees will adhere to the constraint tree specified in fromR_2025-05-21-backbone.tre
+
+Time for BS model parameter optimization 0.331651
+Bootstrap[0]: Time 0.882786 seconds, bootstrap likelihood -70223.727791, best rearrangement setting 9
+Bootstrap[1]: Time 0.437983 seconds, bootstrap likelihood -66847.276226, best rearrangement setting 12
+
+
+Overall Time for 2 Rapid Bootstraps 1.361287 seconds
+Average Time per Rapid Bootstrap 0.680644 seconds
+
+Starting ML Search ...
+
+Fast ML optimization finished
+
+Fast ML search Time: 3.808326 seconds
+
+Slow ML Search 0 Likelihood: -66721.863019
+Slow ML optimization finished
+
+Slow ML search Time: 1.737330 seconds
+Thorough ML search Time: 0.754278 seconds
+
+Final ML Optimization Likelihood: -66721.912628
+
+Model Information:
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.376538
+Tree-Length: 19.709402
+rate A <-> C: 3.642618
+rate A <-> G: 8.954370
+rate A <-> T: 6.603165
+rate C <-> G: 0.758987
+rate C <-> T: 21.188987
+rate G <-> T: 1.000000
+
+freq pi(A): 0.297836
+freq pi(C): 0.263175
+freq pi(G): 0.229329
+freq pi(T): 0.209660
+
+
+ML search took 6.300213 secs or 0.001750 hours
+
+Combined Bootstrap and ML search took 7.661512 secs or 0.002128 hours
+
+Drawing Bootstrap Support Values on best-scoring ML tree ...
+
+
+
+Found 1 tree in File /home/taka/MaizuruFish2025/05_phylogeny_out/RAxML_bestTree.fromR_2025-05-21
+
+
+
+Found 1 tree in File /home/taka/MaizuruFish2025/05_phylogeny_out/RAxML_bestTree.fromR_2025-05-21
+
+Program execution info written to /home/taka/MaizuruFish2025/05_phylogeny_out/RAxML_info.fromR_2025-05-21
+All 2 bootstrapped trees written to: /home/taka/MaizuruFish2025/05_phylogeny_out/RAxML_bootstrap.fromR_2025-05-21
+
+Best-scoring ML tree written to: /home/taka/MaizuruFish2025/05_phylogeny_out/RAxML_bestTree.fromR_2025-05-21
+
+Best-scoring ML tree with support values written to: /home/taka/MaizuruFish2025/05_phylogeny_out/RAxML_bipartitions.fromR_2025-05-21
+
+Best-scoring ML tree with support values as branch labels written to: /home/taka/MaizuruFish2025/05_phylogeny_out/RAxML_bipartitionsBranchLabels.fromR_2025-05-21
+
+Overall execution time for full ML analysis: 7.661982 secs or 0.002128 hours or 0.000089 days
+

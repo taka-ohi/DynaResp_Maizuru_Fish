@@ -1,0 +1,61 @@
+R version 4.5.0 (2025-04-11)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 22.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-serial/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-serial/libopenblas-r0.3.20.so;  LAPACK version 3.10.0
+
+locale:
+ [1] LC_CTYPE=en_HK.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_HK.UTF-8        LC_COLLATE=en_HK.UTF-8    
+ [5] LC_MONETARY=en_HK.UTF-8    LC_MESSAGES=en_HK.UTF-8   
+ [7] LC_PAPER=en_HK.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_HK.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Asia/Hong_Kong
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] phyloseq_1.48.0 pbapply_1.7-2   tibble_3.2.1    dplyr_1.1.4    
+[5] rEDM_0.7.5      rUIC_0.9.12    
+
+loaded via a namespace (and not attached):
+ [1] gtable_0.3.5            ggplot2_3.5.1          
+ [3] rhdf5_2.48.0            Biobase_2.64.0         
+ [5] lattice_0.22-5          rhdf5filters_1.16.0    
+ [7] vctrs_0.6.5             tools_4.5.0            
+ [9] generics_0.1.3          biomformat_1.32.0      
+[11] stats4_4.5.0            parallel_4.5.0         
+[13] fansi_1.0.6             cluster_2.1.8.1        
+[15] pkgconfig_2.0.3         Matrix_1.7-3           
+[17] data.table_1.16.0       S4Vectors_0.42.1       
+[19] lifecycle_1.0.4         GenomeInfoDbData_1.2.12
+[21] compiler_4.5.0          stringr_1.5.1          
+[23] Biostrings_2.72.1       munsell_0.5.1          
+[25] codetools_0.2-19        permute_0.9-7          
+[27] GenomeInfoDb_1.40.1     pillar_1.9.0           
+[29] crayon_1.5.3            MASS_7.3-65            
+[31] vegan_2.6-6.1           iterators_1.0.14       
+[33] foreach_1.5.2           nlme_3.1-168           
+[35] tidyselect_1.2.1        digest_0.6.37          
+[37] stringi_1.8.4           reshape2_1.4.4         
+[39] splines_4.5.0           ade4_1.7-22            
+[41] grid_4.5.0              colorspace_2.1-1       
+[43] cli_3.6.3               magrittr_2.0.3         
+[45] survival_3.8-3          utf8_1.2.4             
+[47] ape_5.8                 withr_3.0.1            
+[49] UCSC.utils_1.0.0        scales_1.3.0           
+[51] XVector_0.44.0          httr_1.4.7             
+[53] igraph_2.0.3            multtest_2.60.0        
+[55] IRanges_2.38.1          mgcv_1.9-1             
+[57] rlang_1.1.4             Rcpp_1.0.13            
+[59] glue_1.7.0              BiocGenerics_0.50.0    
+[61] pkgload_1.4.0           rstudioapi_0.16.0      
+[63] jsonlite_1.8.8          R6_2.5.1               
+[65] Rhdf5lib_1.26.0         plyr_1.8.9             
+[67] zlibbioc_1.50.0        
