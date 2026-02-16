@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.28)  23 JAN 2026 13:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.31)  16 FEB 2026 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,20 +624,20 @@ l.253 \end{document}
  <./Fig_shiftvelocity_validation_out/maizuru.abun.dynamics_shift_ed.pdf>] (./Fi
 gSupple_all.aux) ) 
 Here is how much of TeX's memory you used:
- 14484 strings out of 480247
- 234756 string characters out of 5896151
+ 14486 strings out of 480247
+ 234776 string characters out of 5896151
  551280 words of memory out of 5000000
  32078 multiletter control sequences out of 15000+600000
- 510490 words of font info for 115 fonts, out of 8000000 for 9000
+ 510609 words of font info for 116 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 74i,6n,77p,1046b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,6n,77p,1052b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/te
 xmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmri10.pfb>
-Output written on FigSupple_all.pdf (9 pages, 894983 bytes).
+Output written on FigSupple_all.pdf (9 pages, 895008 bytes).
 PDF statistics:
  377 PDF objects out of 1000 (max. 8388607)
  254 compressed objects within 3 object streams

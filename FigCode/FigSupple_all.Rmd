@@ -36,7 +36,7 @@ header-includes:
 
 <center>
 
-![**Extended Data Figure 2\| Relationship between latitudinal distribution and dynamic response to temperature accounting for phylogeny.** The relationship between species’ latitudinal distribution centers and their mean dynamic responses to temperature is shown, accounting for phylogenetic relatedness using phylogenetic independent contrasts (PIC). The analysis was based on 55 species for which dynamic responses to temperature were quantified (one outlier excluded). The Pearson’s correlation coefficient (*r*) and its *p*-value are indicated in the figure.](FigSupple_out/FigS_pic_latIS.pdf)
+![**Extended Data Figure 2\| Relationship between latitudinal distribution and dynamic response to temperature accounting for phylogeny.** The relationship between species’ latitudinal distribution centers and their mean dynamic responses to temperature is shown, accounting for phylogenetic relatedness using phylogenetic independent contrasts (PIC). The analysis was based on 55 species for which dynamic responses to temperature were quantified (one outlier excluded). Pearson’s correlation coefficient (*r*) and its *p*-value are indicated in the figure.](FigSupple_out/FigS_pic_latIS.pdf)
 
 </center>
 
@@ -45,7 +45,7 @@ header-includes:
 
 <center>
 
-![**Extended Data Figure 3\| Relationships between latitudinal distribution and conventional temperature response traits.** Relationships between species’ latitudinal distribution centers and their temperature responses estimated by linear model (LM) or generalized additive model (GAM). **a**, Latitudinal distribution center versus LM-based response (slope of the linear model between temperature and abundance). **b**, Latitudinal distribution center versus GAM-based response (mean slope of the first derivative of the fitted GAM). **c--d**, Corresponding relationships accounting for phylogenetic relatedness using phylogenetic independent contrasts (PIC). The Pearson's correlation coefficient (*r*) and its *p* value are indicated in the figure.](FigSupple_out/FigS_lat_res.pdf)
+![**Extended Data Figure 3\| Relationships between latitudinal distribution and conventional temperature response traits.** Relationships between species’ latitudinal distribution centers and their temperature responses estimated by linear model (LM) or generalized additive model (GAM). **a**, Latitudinal distribution center versus LM-based response (slope of the linear model between temperature and abundance). **b**, Latitudinal distribution center versus GAM-based response (mean slope of the first derivative of the fitted GAM). **c--d**, Corresponding relationships accounting for phylogenetic relatedness using phylogenetic independent contrasts (PIC). Pearson's correlation coefficient (*r*) and its *p* value are indicated in the figure.](FigSupple_out/FigS_lat_res.pdf)
 
 </center>
 
@@ -53,7 +53,7 @@ header-includes:
 
 <center>
 
-![**Extended Data Figure 4\| Relationship between fish range shift velocity and dynamic response to temperature accounting for phylogeny.** The relationship between each species’ mean dynamic response to temperature and its estimated poleward shift velocity, based on iNaturalist and GBIF occurrence records collected in East Asia and Oceania, accounting for phylogenetic relatedness using phylogenetic independent contrasts (PIC), is shown. The Pearson's correlation coefficient (*r*) and its *p* value are shown.](FigSupple_out/FigS_pic_ISshift.pdf)
+![**Extended Data Figure 4\| Relationship between fish range shift velocity and dynamic response to temperature accounting for phylogeny.** The relationship between each species’ mean dynamic response to temperature and its estimated poleward shift velocity, based on iNaturalist and GBIF occurrence records collected in East Asia and Oceania, accounting for phylogenetic relatedness using phylogenetic independent contrasts (PIC), is shown. Pearson's correlation coefficient (*r*) and its *p* value are shown.](FigSupple_out/FigS_pic_ISshift.pdf)
 
 
 <center>
@@ -62,7 +62,7 @@ header-includes:
 
 <center>
 
-![**Extended Data Figure 5\| Relationships between conventional temperature response traits and fish range shift velocities.** Relationships between species’ temperature response traits, quantified using linear model (LM) or generalized additive model (GAM), and their estimated poleward range shift velocities on iNaturalist and GBIF occurrence records collected in East Asia and Oceania, are shown. **a**, LM-based response (slope of the linear model between temperature and abundance) versus poleward shift velocity. **b**, GAM-based response (mean slope of the first derivative of the fitted GAM) versus poleward shift velocity. **c--d**, Corresponding relationships accounting for phylogenetic relatedness using phylogenetic independent contrasts (PIC). The Pearson's correlation coefficient (*r*) and its *p* value are shown.](FigSupple_out/FigS_res_shift.pdf)
+![**Extended Data Figure 5\| Relationships between conventional temperature response traits and fish range shift velocities.** Relationships between species’ temperature response traits, quantified using linear model (LM) or generalized additive model (GAM), and their estimated poleward range shift velocities derived from iNaturalist and GBIF occurrence records collected in East Asia and Oceania, are shown. **a**, LM-based response (slope of the linear model between temperature and abundance) versus poleward shift velocity. **b**, GAM-based response (mean slope of the first derivative of the fitted GAM) versus poleward shift velocity. **c--d**, Corresponding relationships accounting for phylogenetic relatedness using phylogenetic independent contrasts (PIC). Pearson's correlation coefficient (*r*) and its *p* value are shown.](FigSupple_out/FigS_res_shift.pdf)
 
 <center>
 
@@ -78,21 +78,16 @@ header-includes:
 
 <center>
 
-![**Extended Data Figure 7\| Dynamic responses to temperature after excluding interspecific interactions.** **a**, Relationship between the mean dynamic response to temperature after explicitly accouting for interspecific interactions (i.e., temperature responses without interspecific interactions) and species' estimated poleward range shift velocities derived from iNaturalist and GBIF occurrence records collected in East Asia and Oceania. The Pearson's correlation coefficient (*r*) and its *p* value are shown. **b**, Comparison between the mean dynamic responses to temperature estimated with and without accounting for interspecific interactions. The red dashed line indicates the 1:1 relationship, and the blue line shows the linear regression fitted to the data.](FigSupple_out/FigS_IS.int.pdf)
+![**Extended Data Figure 7\| Dynamic responses to temperature after excluding interspecific interactions.** **a**, Relationship between the mean dynamic response to temperature after explicitly accounting for interspecific interactions (i.e., temperature responses without interspecific interactions) and species' estimated poleward range shift velocities derived from iNaturalist and GBIF occurrence records collected in East Asia and Oceania. Pearson's correlation coefficient (*r*) and its *p* value are shown. **b**, Comparison between the mean dynamic responses to temperature estimated with and without accounting for interspecific interactions. The red dashed line indicates the 1:1 relationship, and the blue line shows the linear regression fitted to the data.](FigSupple_out/FigS_IS.int.pdf)
 
 <center>
 
 \clearpage
 
-<!-- ![**Extended Data Figure 8\| Per-capita dynamic responses to temperature.** **a**, Relationship between the mean per-capita dynamic response to temperature and species' estimated poleward range shift velocities derived from iNaturalist and GBIF occurrence records collected in East Asia and Oceania. The Pearson's correlation coefficient (r) and its statistical clarity are shown. **b**, Comparison between the mean per-capita dynamic responses to temperature. The red dashed line indicates the 1:1 relationship, and the blue line shows the linear regression fitted to the data.](FigSupple_out/FigS_IS.per.capita.pdf) -->
-
-<!-- <center> -->
-
-<!-- \clearpage -->
 
 
 <center>
 
-![**Extended Data Figure 8\| Relationships between species’ latitudinal distribution centers and their estimated poleward shift velocities, with temporal changes in local abundance.** Each point represents a fish species, showing the relationship between its latitudinal distribution center and its estimated poleward shift velocity. Grey dashed line indicates the latitude of Maizuru Bay. For each species, its temporal trend in log-transformed abundance observed at the Maizuru site is shown as a small inset plot positioned at its corresponding point. Axes of the inset plots were removed for visualization purposes.](Fig_shiftvelocity_validation_out/maizuru.abun.dynamics_shift_ed.pdf)
+![**Extended Data Figure 8\| Relationships between species’ latitudinal distribution centers and their estimated poleward shift velocities, with temporal changes in local abundance.** Each point represents a fish species, showing the relationship between its latitudinal distribution center and its estimated poleward shift velocity. Gray dashed line indicates the latitude of Maizuru Bay. For each species, its temporal trend in log-transformed abundance observed at the Maizuru site is shown as a small inset plot positioned at its corresponding point. Axes of the inset plots were removed for visualization purposes.](Fig_shiftvelocity_validation_out/maizuru.abun.dynamics_shift_ed.pdf)
 
 <center>
