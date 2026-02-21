@@ -36,7 +36,7 @@ header-includes:
 
 <center>
 
-![**Extended Data Figure 2\| Relationship between latitudinal distribution and dynamic response to temperature accounting for phylogeny.** The relationship between species’ latitudinal distribution centers and their mean dynamic responses to temperature is shown, accounting for phylogenetic relatedness using phylogenetic independent contrasts (PIC). The analysis was based on 55 species for which dynamic responses to temperature were quantified (one outlier excluded). Pearson’s correlation coefficient (*r*) and its *p*-value are indicated in the figure.](FigSupple_out/FigS_pic_latIS.pdf)
+![**Extended Data Figure 2\| Relationship between latitudinal distribution and dynamic response to temperature accounting for phylogeny.** The relationship between species’ latitudinal distribution centers and their mean dynamic responses to temperature is shown, accounting for phylogenetic relatedness using phylogenetic independent contrasts (PIC). The analysis was based on 56 species for which dynamic responses to temperature were quantified (two outliers excluded). Pearson’s correlation coefficient (*r*) and its *p*-value are indicated in the figure.](FigSupple_out/FigS_pic_latIS.pdf)
 
 </center>
 

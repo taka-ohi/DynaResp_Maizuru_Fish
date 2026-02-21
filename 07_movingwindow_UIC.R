@@ -177,8 +177,22 @@ meanIS_taxinfo <- readRDS("03_MDR_Smap_out/meanIS_taxinfo_df.rds")
 uicsig_counts_w_IS <- meanIS_taxinfo %>%
   left_join(sig_counts, by = c("Fish_ID" = "effect_var"))
 
+# filter by number of significant windows
+IS_mwUIC_sig <- uicsig_counts_w_IS %>%
+  filter(n_window_sig >= 1)
+
+# remove outlier
+Q1 <- quantile(IS_mwUIC_sig$mean_IS, 0.25)
+Q3 <- quantile(IS_mwUIC_sig$mean_IS, 0.75)
+IQR <- Q3 - Q1
+lower_bound <- Q1 - 1.5 * IQR
+upper_bound <- Q3 + 1.5 * IQR
+uicsig_counts_w_IS_wo_out <- IS_mwUIC_sig %>%
+  filter(mean_IS >= lower_bound & mean_IS <= upper_bound)
+
+
 # save data frame which contains both number of windows with uic-significance and IS
-saveRDS(uicsig_counts_w_IS, "07_movingwindow_UIC_out/meanIS_taxinfo_mwUIC_df.rds")
+saveRDS(uicsig_counts_w_IS_wo_out, "07_movingwindow_UIC_out/meanIS_taxinfo_mwUIC_df.rds")
 
 # save data frame of number of windows wiih uic-significance (all species)
 saveRDS(sig_counts, "07_movingwindow_UIC_out/n_sig_mwUIC_df.rds")

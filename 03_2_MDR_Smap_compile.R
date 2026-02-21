@@ -38,6 +38,10 @@ mdrres_list <- list("mdr_surr_bt.to.fc" = bt_mdr_res_surr,
                     "mdr_con_btdiff.to.macrodiff" = bt_mdr_res_con_macro
                     )
 
+# # get metadata
+# sample_data <- safc_safcdiff |>
+#   select(all_of(names(safc_safcdiff)[!grepl("Fish", names(safc_safcdiff))]))
+
 # <---------------------------------------------> #
 # Summarize S-map coefficients to data.frame
 # <---------------------------------------------> #
@@ -75,7 +79,7 @@ for (l in names(mdrres_list)) {
     smapc_colnames <- paste0(sprintf("c_%s", 1:length(block_vars_i)))
     ## Extract S-map coefficients
     smapc_df <- lis[[tax_i]]$mdr_res$smap_coefficients %>%
-      select(all_of(smapc_colnames)) 
+      select(all_of(smapc_colnames)) #%>% .[valid_idx_df$valid_idx,] # no need for 
     
     ## Make delayed block to check whether a focal species pair is
     block_delay_sps <- block_vars_i[tax_valid_idx][!(block_vars_i[tax_valid_idx] %in% env_vars)] %>% 
@@ -92,10 +96,12 @@ for (l in names(mdrres_list)) {
     ## Create one tidy data.frame that includes all information
     smapc_df_tmp <- smapc_df[,tax_valid_idx]
     colnames(smapc_df_tmp) <- sprintf("effect_from_%s", block_vars_i[tax_valid_idx])
+    #colnames(smapc_df_tmp) <- block_vars_i[tax_valid_idx]
     smapc_df_tmp <- cbind(smapc_df_tmp, samdata_tmp)
     smapc_df_tmp$sample_id <- rownames(safc_safcdiff_tmp)
     smapc_df_tmp$effect_var <- tax_i
     smapc_df_tmp$effect_var_val <- block_delay[,tax_i]
+    # smapc_df_tmp$sp_richness <- apply(fishcount.df, 1, function(x) sum(x > 0))
     smapc_df_tmp_long <- pivot_longer(smapc_df_tmp,
                                       cols = -c(c(colnames(samdata_tmp), "sample_id", "effect_var", "effect_var_val")),
                                       names_to = "cause_var", values_to = "IS")
@@ -135,14 +141,7 @@ summary_df <- smap_summary_list[["mdr_surr_bt.to.fc"]] %>%
     mean_IS = mean(IS, na.rm = TRUE),
     sd_IS = sd(IS, na.rm = TRUE)
   )
-# remove outlier
-Q1 <- quantile(summary_df$mean_IS, 0.25)
-Q3 <- quantile(summary_df$mean_IS, 0.75)
-IQR <- Q3 - Q1
-lower_bound <- Q1 - 1.5 * IQR
-upper_bound <- Q3 + 1.5 * IQR
-summary_df_wo_out <- summary_df %>%
-  filter(mean_IS >= lower_bound & mean_IS <= upper_bound)
+
 
 # combine with taxonomy data
 tax_sheet <- tax_table(ps_all) %>%
@@ -158,7 +157,8 @@ tax_sheet <- tax_sheet %>%
     }
   ))
 
-fishIS_data <- summary_df_wo_out %>%
+
+fishIS_data <- summary_df %>%
   left_join(tax_sheet %>% select(Fish_ID, FishBase_name, Lat_center),
             by = c("effect_var" = "Fish_ID")) %>% 
   select(Fish_ID = effect_var, FishBase_name, mean_IS, sd_IS, Lat_center)
@@ -175,6 +175,7 @@ fish_aveabun <- as.data.frame(fishcount_tbl) %>%
   select(Fish_ID, mean_abun)
 # add mean abundance
 fishIS_data <- merge(fishIS_data, fish_aveabun, by = "Fish_ID", all.x = TRUE)
+
 
 
 # <---------------------------------------------> #
